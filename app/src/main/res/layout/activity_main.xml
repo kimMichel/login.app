@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_user"
+            style="@style/EditTextForm"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/user"
+            android:inputType="textVisiblePassword" />
+
+        <EditText
+            android:id="@+id/edit_pass"
+            style="@style/EditTextForm"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@style/ButtonForm"
+            app:cornerRadius="10dp"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/btn_regis"
+            style="@style/ButtonForm"
+            android:text="@string/create_acc"
+            app:cornerRadius="10dp" />
+
+        <TextView
+            android:id="@+id/btn_res"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_pw" />
+
+    </LinearLayout>
+
+</ScrollView>

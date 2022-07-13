@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="login">Login</string>
+    <string name="user">Username</string>
+    <string name="password">Password</string>
+    <string name="enter">Enter</string>
+    <string name="reset_pw">Forgot your password? Reset Now</string>
+    <string name="create_acc">Register Now</string>
+    <string name="register">Register</string>
+    <string name="conf_pass">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="reset_instruction">Enter your email to search for your account.</string>
+    <string name="search">Search</string>
+    <string name="field_message">The fields must be filled</string>
+    <string name="password_confirm_message">Confirm password is not matched</string>
+</resources>
